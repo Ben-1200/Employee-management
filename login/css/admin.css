@@ -1,0 +1,88 @@
+	*{
+          margin:0;
+          padding: 0;
+           
+     }
+     button{
+          position: absolute;
+          padding: 10px;
+          width:8%;
+          background-color: white;
+          border:none;
+          color:#00FF7F;
+          top:10px;
+          right:10px;
+          border-radius: 30px;
+	}
+		
+
+     button:hover{          
+          background-color: #00FF7F;
+          color: white;          
+	}
+  
+     .main{
+          height:100%;
+          width: 100%;
+          background-image: url("../images/bg/2.jpg");
+          background-position:center;
+          background-size: cover;
+          position:absolute;
+     }
+     .add,.edit,.approve,.notice,.leave,.listing,.department{
+          width:25%;
+          height:auto;
+          
+          position:absolute;
+          top:20%;
+     }
+     .add > a,.edit > a,.approve > a,.notice > a,.leave > a,.listing > a,.department > a{
+          display: block;
+          width:30%;
+          border:4px solid white;
+          border-radius: 23px;
+          padding: 12px;
+          color:white;
+          margin-left: 20%;
+          text-align: center;
+          cursor: pointer;
+          text-decoration: none;
+          font-size: 23px;
+     }
+     .add,.edit{
+          top:10%;
+     }
+     .edit,.notice,.listing{
+        right:20%;
+        
+     }
+     .approve,.notice{
+          top:35%;
+     }
+     .add,.approve,.leave,.department{
+          left:20%;
+     }
+     .leave,.listing{
+          top:60%;
+     }
+     .department{
+          left:40%;
+          top:83%;
+     }
+     .add > h2,.edit > h2,.approve > h2,.notice > h2,.department > h2,.leave > h2,.listing > h2{
+          color:white;
+          font-size: 25px;
+     }
+     h1{
+          color:white;
+          font-size: 34px;
+     }
+     .approve .appr,.leave .appr{
+          background-color:black;
+          color: white;
+          border-radius: 60%;
+          padding: 10px;
+          position:absolute;
+          top:30%;
+          right:40%;
+     }

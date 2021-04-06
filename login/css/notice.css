@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+}
+.log button{
+	margin-left: 89%;
+	margin-top:4px;
+	border:2px solid white;
+	color:white;
+    background-color: unset;
+    border-radius: 23px;
+    padding:12px;
+    width:10%;
+}
+.form{
+	/*background-color: green;*/
+	width:20%;
+	height:auto;
+	position:absolute;
+	left:30%;
+	top:30%;
+	width:50%;
+}
+.form input,.form textarea{
+	margin-left: 19%;
+	padding:12px;
+	background-color: unset;
+	border:2px solid white;
+	border-radius:12px;
+	color:white;
+	width:50%;
+}
+.form button{
+	margin-left: 35%;
+	padding:12px;
+	width:27%;
+	border:2px solid white;
+	background-color: unset;
+	color:white;
+	border-radius: 23px;
+	cursor: pointer;
+}
+.main{
+	height:100%;
+          width: 100%;
+          background-image: url("../images/bg/a3.jpg");
+          background-position:center;
+          background-size: cover;
+          position:absolute;
+}
+.edit{
+	/*background-color: white;*/
+	width:40%;
+	height:auto;
+	position: absolute;
+	top:30%;
+   
+
+}
+.edit input,.edit textarea{
+	margin-left: 20%;
+	border:2px solid white;
+	background-color: unset;
+	padding:12px;
+	color: white;
+	border-radius: 23px;
+	width: 60%;
+}
+.edit button{
+margin-left: 30%;
+border:2px solid white;
+background-color: unset;
+cursor: pointer;
+padding:12px;
+color: white;
+width:40%;
+border-radius: 23px;
+}
+#a1{
+	display: none;
+}

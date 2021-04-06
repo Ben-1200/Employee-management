@@ -1,0 +1,68 @@
+*{
+	   box-sizing: border-box;
+          margin:0;
+          padding: 0;
+           font-family: Arial, Helvetica, sans-serif;
+     }
+
+.admin,.employee{
+	width:25.33%;
+	height:auto;
+	/*background-color: white;*/
+    position: absolute;
+    top: 30%;
+}
+.admin>h1,.admin > form{
+	margin-left: 15%;
+}
+input{
+	display:block;
+    padding:10px;
+    background-color: unset;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 23px;
+}
+button{
+	display:block;
+	width:30%;
+	padding:10px;
+	border: 1px solid #00FF7F;
+	background-color: unset;
+	color:white;
+	border-radius: 34px;
+	margin-left: 25.99%;
+}
+.employee > a{
+   display: block;
+   border : 1px solid #00FF7F;
+   text-decoration: none;
+   color: white;
+   width:30%;
+   padding:10px;
+   border-radius: 23px;
+   margin-left: 25%;
+   text-align: center;
+}
+.employee{
+	width: 35%;
+	right:15%;
+}
+.admin{
+	left:20%;
+}
+.header{
+	font-size: 30px;
+	color:white;
+	position: absolute;
+	top:10%;
+	left:10%;
+}
+.head{
+          height:100%;
+          width: 100%;
+          background-image: url("../images/bg/d.png");
+          background-position:center;
+          background-size: cover;
+          position:absolute;
+     }

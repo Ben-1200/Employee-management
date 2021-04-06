@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	margin:0;
+}
+input[type=text],input[type=password],input[type=date]{
+	
+	width:50%;
+	padding: 10px;
+    border-radius:5px;
+    margin-left:14.44%;
+     
+}
+input[type=text]:hover,input[type=password]:hover,input[type=date]:hover{
+border:3px solid #ff1493;
+color:#ff1493;
+/*#dc143c;
+color: #dc143c;*/
+}
+button{
+    margin-left:30%;
+    border:2px solid #a9a9a9;
+    padding:10px;
+    border-radius: 20px;
+    border:1px solid #0ff;
+    background-color: white;
+}
+button[type="submit"]:hover{
+	background-color: #0ff;
+	color:white;
+}
+.register-emp,.emp-signin{
+   
+	width:70%;
+	margin-left:20%;
+	margin-top:34px;
+	padding:18px 0px;
+}
+.err{
+	display: inline;
+	color:red;
+}

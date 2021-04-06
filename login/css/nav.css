@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li button{
+  margin-left: 0%;
+  border:1px solid #00FFFF;
+  background-color: unset;
+  border-radius: 23px;
+  color:#00FFFF;
+  margin-top: 3px;
+  padding: 8px;
+  width:120px;
+  }
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+li button:hover{
+  background-color:#00FFFF;
+  color:white;
+}
